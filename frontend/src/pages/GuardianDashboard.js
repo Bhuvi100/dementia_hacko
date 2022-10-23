@@ -1,13 +1,14 @@
-import React from 'react'
-import GuardianNavbar from '../components/GuardianNavbar'
+import React from "react";
+import GuardianNavbar from "../components/Guardiannavbar";
+import Chart from "../components/Chart";
 
 const GuardianDashboard = () => {
   return (
     <div>
-        <GuardianNavbar />
-        
+      <GuardianNavbar />
+      <Chart />
     </div>
-  )
-}
+  );
+};
 
-export default GuardianDashboard
+export default GuardianDashboard;
