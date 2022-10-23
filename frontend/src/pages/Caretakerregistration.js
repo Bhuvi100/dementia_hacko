@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react'
+import UserNavbar from '../components/UserNavbar'
 
-export default function CareTaker_Register(){
-    return(
-         <div class="coutainer mx-auto">
+const Caretakerregistration = () => {
+  return (
+    <div>
+        <UserNavbar />
+        <div class="coutainer mt-5">
             <div class="flex content-start flex-wrap" >
                 <div class="w-1/4 p-2"></div>
                 <div class="w-1/2 p-2">
@@ -64,5 +67,8 @@ export default function CareTaker_Register(){
 
             </div>
         </div>
-    )
+    </div>
+  )
 }
+
+export default Caretakerregistration

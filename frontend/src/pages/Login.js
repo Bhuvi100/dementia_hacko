@@ -2,46 +2,61 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div class="coutainer m-20 mx-auto">
-            
-        <div class="flex content-start flex-wrap ">
-            <div class="w-1/3 p-2">
+    <div>
+    <section class="pt-28 h-screen"  style={{ background: "url('/assets/bg.png')" }}>
+    <div class="container mx-auto">
+        <div class="-mx-4 flex flex-wrap">
+        <div class="w-full px-4">
+            <div
+            class="relative mx-auto max-w-[525px] overflow-hidden rounded-lg py-16 px-10 text-center sm:px-12 md:px-[60px]"
+            >
+            <div class="mb-10 text-center md:mb-16">
+                <a
+                href="#"
+                class="mx-auto inline-block max-w-[160px]"
+                >
+                <img
+                    src="/assets/logo.png"
+                    alt="logo"
+                />
+                </a>
             </div>
-            <div class="w-1/3 p-2">
-            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            
-            <p class="text-6xl mb-10">Login</p>
-                    <div class="mb-4">
-                    <label class="inline text-sm font-bold mb-2">Username</label>
-                    <input class="border rounded w-full py-2 px-3 text-gray-700" id="username" type="text" placeholder="Username"/>
-                    </div>
-                    
-                    <div class="mb-6">
-                    <label class="inline text-gray-700 text-sm font-bold mb-2" for="password">
-                        Password
-                    </label>
-                    <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="password"/>
-                    
-                    </div>
-                    <div class="flex items-center justify-between">
-                    
-                    <div class="w-1/3 p-2"></div>
-                    <div class="w-1/3 p-2">
-                    <button class="bg-purple-300 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                        Sign In
-                    </button>
-                    </div>
-                    <div class="w-1/3 p-2"></div>
-            </div>
+            <form>
+                <div class="mb-6">
+                <input
+                    type="text"
+                    placeholder="Email"
+                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none focus:border-primary focus-visible:shadow-none"
+                />
+                </div>
+                <div class="mb-5">
+                <input
+                    type="submit"
+                    value="Sign In"
+                    class="border-primary w-full cursor-pointer rounded-md border py-3 px-5 text-base text-white"
+                    style={{ background:"#6943a4" }}
+                    />
+                </div>
             </form>
-            </div>
-            <div class="w-1/3 p-2">
+            <a
+                href="#"
+                class="mb-2 inline-block text-base text-[#adadad] hover:text-primary">
+                Forget Password?
+            </a>
+            <br />
+
+            <a
+                href="#"
+                class="mb-2 inline-block text-base text-[#adadad] hover:text-primary">
+                Don't have an account ? Register here
+            </a>
+
             </div>
         </div>
- 
-  
-            
+        </div>
     </div>
+    </section>
+</div>
   )
 }
 

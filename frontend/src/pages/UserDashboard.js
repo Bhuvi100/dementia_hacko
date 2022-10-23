@@ -1,14 +1,17 @@
 import React from 'react'
 import Card from '../components/Card'
 import Navbar from '../components/Navbar'
+import UserNavbar from '../components/UserNavbar'
 
 const UserDashboard = () => {
   return (
     <div>
-        <Navbar />
+        <UserNavbar />
         <Card />
 
+        <a href='caretakerregistration'>
         <button type="button" class="flex justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mx-auto mt-5">Register as caretaker</button>
+        </a>
 
         <div class="p-6 bg-white rounded-lg border border-gray-200 shadow-md mx-5 mt-5">
             <div class="flex justify-center">

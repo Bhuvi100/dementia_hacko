@@ -7,12 +7,20 @@ import Register from './Register';
 import Jigsaw from './Jigsaw';
 import Puzzle from './Puzzle';
 import UserDashboard from './UserDashboard';
+import Caretakerregistration from './Caretakerregistration';
+import Landing from './Landing';
+import GuardianDashboard from './GuardianDashboard';
 
 
 const Base = () => {
   return (
     <div>
         <Routes>
+
+            <Route
+              path='/'
+              element={<Landing />}
+            />
 
             <Route
                 path="/login"
@@ -43,8 +51,17 @@ const Base = () => {
               path="/user"
               element={<UserDashboard />}
             />
-            
 
+            <Route
+              path='/caretakerregistration'
+              element={<Caretakerregistration />}
+            />
+
+            <Route
+              path='/guardian'
+              element={<GuardianDashboard />}
+            />
+            
         </Routes>
     </div>
   )
