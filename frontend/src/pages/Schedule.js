@@ -31,10 +31,10 @@ const Schedule = () => {
             
             <tr class="border-b bg-blue-100 border-blue-200">
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                Primary
+                7:00
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Cell
+                restroom
               </td>
               <td>
               <div class="flex items-center ml-12">
@@ -45,10 +45,10 @@ const Schedule = () => {
             </tr>
             <tr class="border-b bg-purple-100 border-purple-200">
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                Secondary
+                7:20 am
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Cell
+                Physio/Exercise/walking
               </td>
               <td>
               <div class="flex items-center ml-12">
@@ -59,10 +59,10 @@ const Schedule = () => {
             </tr>
             <tr class="border-b bg-green-100 border-green-200">
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                Success
+                8:00 am
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Cell
+                Breakfast
               </td>
               <td>
               <div class="flex items-center ml-12">
@@ -73,10 +73,10 @@ const Schedule = () => {
             </tr>
             <tr class="border-b bg-red-100 border-red-200">
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                Danger
+                8:30 am
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Cell
+                Medicine
               </td>
               <td>
               <div class="flex items-center ml-12">
@@ -87,10 +87,10 @@ const Schedule = () => {
             </tr>
             <tr class="border-b bg-yellow-100 border-yellow-200">
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                Warning
+                12:30 pm
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Cell
+                lunch
               </td>
               <td>
               <div class="flex items-center ml-12">
@@ -101,10 +101,10 @@ const Schedule = () => {
             </tr>
             <tr class="border-b bg-indigo-100 border-indigo-200">
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                Info
+                1:30 pm
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Cell
+                Medicine
               </td>
               <td>
               <div class="flex items-center ml-12">
@@ -115,10 +115,25 @@ const Schedule = () => {
             </tr>
             <tr class="border-b bg-gray-50 border-gray-200">
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                Light
+                7:00 pm
               </td>
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Cell
+                Dinner
+              </td>
+              <td>
+              <div class="flex items-center ml-12">
+    <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-purple-500 bg-gray-100 rounded border-gray-300 focus:ring-purple-500 dark:focus:ring-purple-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    
+</div>
+
+              </td>
+            </tr>
+            <tr class="border-b bg-blue-100 boder-gray-900">
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                8:00 pm
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Dinner
               </td>
               <td>
               <div class="flex items-center ml-12">
@@ -127,12 +142,12 @@ const Schedule = () => {
 </div>
               </td>
             </tr>
-            <tr class="border-b bg-gray-800 boder-gray-900">
-              <td class="text-sm text-white font-medium px-6 py-4 whitespace-nowrap">
-                Dark
+            <tr class="border-b bg-green-100 boder-gray-900">
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                9:00 pm
               </td>
-              <td class="text-sm text-white font-light px-6 py-4 whitespace-nowrap">
-                Cell
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Sleep
               </td>
               <td>
               <div class="flex items-center ml-12">
