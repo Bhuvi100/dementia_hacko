@@ -19,7 +19,7 @@ const Forum = () => {
                 </div>
                 <div class="flex w-full mt-2 mb-2 space-x-3 max-w-xs ml-auto justify-end">
                     <div>
-                        <div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+                        <div class="bg-purple-500 text-white p-3 rounded-l-lg rounded-br-lg">
                             <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Forum = () => {
                 </div>
                 <div class="flex w-full mt-2 mb-2 space-x-3 max-w-xs ml-auto justify-end">
                     <div>
-                        <div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+                        <div class="bg-purple-500 text-white p-3 rounded-l-lg rounded-br-lg">
                             <p class="text-sm">Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Forum = () => {
                 </div>
                 <div class="flex w-full mt-2 mb-2  space-x-3 max-w-xs ml-auto justify-end">
                     <div>
-                        <div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+                        <div class="bg-purple-500 text-white p-3 rounded-l-lg rounded-br-lg">
                             <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Forum = () => {
                 </div>
                 <div class="flex w-full mt-2 mb-2 space-x-3 max-w-xs ml-auto justify-end">
                     <div>
-                        <div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+                        <div class="bg-purple-500 text-white p-3 rounded-l-lg rounded-br-lg">
                             <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const Forum = () => {
                 </div>
                 <div class="flex w-full mt-2 mb-2 space-x-3 max-w-xs ml-auto justify-end">
                     <div>
-                        <div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+                        <div class="bg-purple-500 text-white p-3 rounded-l-lg rounded-br-lg">
                             <p class="text-sm">Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const Forum = () => {
                 </div>
                 <div class="flex w-full mt-2 mb-2 space-x-3 max-w-xs ml-auto justify-end">
                     <div>
-                        <div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+                        <div class="bg-purple-500 text-white p-3 rounded-l-lg rounded-br-lg">
                             <p class="text-sm">Lorem ipsum dolor sit.</p>
                         </div>
                     </div>

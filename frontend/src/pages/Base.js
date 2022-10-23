@@ -10,6 +10,10 @@ import UserDashboard from './UserDashboard';
 import Caretakerregistration from './Caretakerregistration';
 import Landing from './Landing';
 import GuardianDashboard from './GuardianDashboard';
+import Action from './Action'
+import HomeLayout from './HomeLayout'
+import Schedule from './Schedule'
+import MemoryTest from './MemoryTest'
 
 
 const Base = () => {
@@ -60,6 +64,22 @@ const Base = () => {
             <Route
               path='/guardian'
               element={<GuardianDashboard />}
+            />
+            <Route
+              path='/action'
+              element={<Action/>}
+            />
+            <Route
+              path='/homelayout'
+              element={<HomeLayout/>}
+            />
+            <Route
+              path='/schedule'
+              element={<Schedule/>}
+            />
+             <Route
+              path='/memorytest'
+              element={<MemoryTest/>}
             />
             
         </Routes>
