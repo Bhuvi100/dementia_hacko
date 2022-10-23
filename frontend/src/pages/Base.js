@@ -6,6 +6,7 @@ import Login from './Login';
 import Register from './Register';
 import Jigsaw from './Jigsaw';
 import Puzzle from './Puzzle';
+import UserDashboard from './UserDashboard';
 
 
 const Base = () => {
@@ -36,6 +37,11 @@ const Base = () => {
             <Route 
               path="/puzzle"
               element={<Puzzle />}
+            />
+
+            <Route
+              path="/user"
+              element={<UserDashboard />}
             />
             
 

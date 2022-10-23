@@ -1,11 +1,13 @@
 import React from 'react'
+import Card from '../components/Card'
 import Navbar from '../components/Navbar'
 
 const Dashboard = () => {
   return (
     <div>
       <Navbar />
-        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-28">
+      <Card />
+        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10">
       <div class="p-5 bg-slate-300 ml-8 rounded-lg h-32">
       <p class="text-center">
         <a href='/forum'>
