@@ -12,13 +12,13 @@ const MemoryTest = () => {
             <Navbar />
             <Carousel>
                 <div>
-                    <img src="/assets/homelayout.png" />
+                    <img src="/assets/memory/memtest1.jpg" />
                 </div>
                 <div>
-                    <img src="/assets/logo.png" />
+                    <img src="/assets/memory/memtest2.jpg" />
                 </div>
                 <div>
-                    <img src="/assets/user.png" />
+                    <img src="/assets/memory/memtest3.jpg" />
                 </div>
             </Carousel>
             <button className="bg-purple-700 p-3 ml-80 focus:bg-green-500 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
