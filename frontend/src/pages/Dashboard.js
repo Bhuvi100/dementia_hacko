@@ -8,7 +8,7 @@ const Dashboard = () => {
       <Navbar />
       <Card />
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10">
-      <div class="p-5 bg-slate-300 ml-8 rounded-lg h-32">
+      <div class="p-5 bg-purple-200 ml-8 rounded-lg h-32">
       <p class="text-center">
         <a href='/forum'>
         <button>
@@ -23,7 +23,7 @@ const Dashboard = () => {
       </h2>
       </div>
 
-      <div class="p-5 bg-slate-300 mr-8 rounded-lg h-32">
+      <div class="p-5 bg-purple-200 mr-8 rounded-lg h-32">
       <p class="text-center">
       <a href='/puzzle'>
         <button>
@@ -38,7 +38,7 @@ const Dashboard = () => {
       </h2>
       </div>
 
-      <div class="p-5 bg-slate-300 ml-8 rounded-lg h-32">
+      <div class="p-5 bg-purple-200 ml-8 rounded-lg h-32">
       <p class="text-center">
         <a href="/action">
         <button>
@@ -53,7 +53,7 @@ const Dashboard = () => {
       </h2>
       </div>
 
-      <div class="p-5 bg-slate-300 mr-8 rounded-lg h-32">
+      <div class="p-5 bg-purple-200 mr-8 rounded-lg h-32">
       <p class="text-center">
         <a href="/homelayout">
         <button>
@@ -68,7 +68,7 @@ const Dashboard = () => {
       </h2>
       </div>
 
-      <div class="p-5 bg-slate-300 ml-8 rounded-lg h-32">
+      <div class="p-5 bg-purple-200 ml-8 rounded-lg h-32">
       <p class="text-center">
         <a href="/schedule">
         <button>
@@ -84,7 +84,7 @@ const Dashboard = () => {
       </h2>
       </div>
 
-      <div class="p-5 bg-slate-300 mr-8 rounded-lg h-32">
+      <div class="p-5 bg-purple-200 mr-8 rounded-lg h-32">
       <p class="text-center">
       <a href="/memorytest">
       <button>
