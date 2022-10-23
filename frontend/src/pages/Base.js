@@ -14,6 +14,7 @@ import Action from './Action'
 import HomeLayout from './HomeLayout'
 import Schedule from './Schedule'
 import MemoryTest from './MemoryTest'
+import CareTakerDashboard from './CareTakerDashboard';
 
 
 const Base = () => {
@@ -70,9 +71,18 @@ const Base = () => {
               element={<Action/>}
             />
             <Route
+              path='/actionguardian'
+              element={<Action isGuardian={true}/>}
+            />
+            <Route
               path='/homelayout'
               element={<HomeLayout/>}
             />
+            <Route
+              path='/homelayoutguardian'
+              element={<HomeLayout isGuardian={true}/>}
+            />
+
             <Route
               path='/schedule'
               element={<Schedule/>}
@@ -80,6 +90,11 @@ const Base = () => {
              <Route
               path='/memorytest'
               element={<MemoryTest/>}
+            />
+
+            <Route
+              path='/caretaker'
+              element={<CareTakerDashboard />}
             />
             
         </Routes>

@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "../App.css";
 import Navbar from "../components/Navbar";
 
-const Action = () => {
+const Action = (props) => {
 	
 	
 	return (
 		<div>
-            <Navbar />
+            <Navbar isGuardian={props.isGuardian}/>
             <section class="overflow-hidden text-gray-700 ">
   <div class="container mt-10 px-5 py-2 mx-auto lg:pt-12 lg:px-32">
     <div class="flex flex-wrap -m-1 md:-m-2">

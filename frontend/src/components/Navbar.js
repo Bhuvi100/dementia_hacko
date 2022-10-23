@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Navbar = () => {
+const Navbar = (props) => {
     const [isProfileOpen, setIsProfileOpen ] = useState(false)
 
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
             <div class={" z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600 " + (isProfileOpen?"": "hidden" )} id="user-dropdown" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style={{ position: "absolute",  inset: "30px 0px auto auto", transform: "translate3d(0px, 410.4px, 0px)S" }}>
                 <ul class="py-1" aria-labelledby="user-menu-button">
                 <li>
-                    <a href="/dashboard" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                    <a href={props.isGuardian?"guardian":"/dashboard"} class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
                 </li>
                 <li>
                     <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>

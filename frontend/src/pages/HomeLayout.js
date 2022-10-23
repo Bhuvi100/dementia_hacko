@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "../App.css";
 import Navbar from "../components/Navbar";
 
-const HomeLayout = () => {
+const HomeLayout = (props) => {
 	
 	
 	return (
 		<div>
-            <Navbar />
+            <Navbar isGuardian={props.isGuardian} />
             {/* <div class="bg-fixed h-screen object-fit"  style={{ background: "url('/assets/homelayout.png')" }}> */}
 
             {/* </div> */}

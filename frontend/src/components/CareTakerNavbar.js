@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
-const GuardianNavbar = () => {
+const CareTakerNavbar = (props) => {
     const [isProfileOpen, setIsProfileOpen ] = useState(false)
 
   return (
     <div>
-    <div class="h-18 bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-300">
+            <div class="h-18 bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-300">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <img src="/assets/logo.png" class="mr-3 h-14 sm:h-9" alt="Flowbite Logo" />
         <div class="flex items-center md:order-2">
@@ -16,25 +16,10 @@ const GuardianNavbar = () => {
             <div class={" z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600 " + (isProfileOpen?"": "hidden" )} id="user-dropdown" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style={{ position: "absolute",  inset: "30px 0px auto auto", transform: "translate3d(0px, 410.4px, 0px)S" }}>
                 <ul class="py-1" aria-labelledby="user-menu-button">
                 <li>
-                    <a href="/guardian" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                    <a href="/caretaker" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
                 </li>
                 <li>
-                    <a href="# " class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit Medical Records</a>
-                </li>
-                <li>
-                    <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit Actions</a>
-                </li>
-                <li>
-                    <a href="# " class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit Home Layout</a>
-                </li>
-                <li>
-                    <a href="# " class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit Schedule</a>
-                </li>
-                <li>
-                    <a href="# " class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit Memory Test</a>
-                </li>
-                <li>
-                    <a href="# " class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Check User Activity</a>
+                    <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit Schedule</a>
                 </li>
                 <li>
                     <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
@@ -48,4 +33,4 @@ const GuardianNavbar = () => {
   )
 }
 
-export default GuardianNavbar
+export default CareTakerNavbar
