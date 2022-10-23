@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 import Navbar from "../components/Navbar";
 
+
 const Action = () => {
 	
 	
@@ -14,49 +15,49 @@ const Action = () => {
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300" >
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"/>
+            src="/assets/actions/action1.jpg"/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"/>
+            src="/assets/actions/action2.jpg"/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"/>
+            src="/assets/actions/action3.jpg"/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"/>
+            src="/assets/actions/action4.jpg"/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"/>
+            src="/assets/actions/action5.jpg"/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"/>
+            src="/assets/actions/action6.jpg"/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"/>
+            src="/assets/actions/action7.jpg"/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"/>
+            src="/assets/actions/action1.jpg"/>
         </div>
       </div>
     </div>
